@@ -1,0 +1,38 @@
+conversiones CLASE #6
+
+using System.Runtime.InteropServices;
+
+namespace Clase_2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            double temperatura = 23.5;
+
+            int temperaturaPereira;
+
+            temperaturaPereira =(int) temperatura;
+
+            Console.WriteLine(temperaturaPereira);
+
+        }
+    }
+}
+
+
+
+conerciones tabla
+De	       En
+sbyte  	short, int, long, float, double, decimal o nint
+byte	      short, ushort, int, uint, long, ulong, float, double, decimal, nint o nuint
+short  	int, long, float, double, o decimal, o nint
+ushort	int, uint, long, ulong, float, double, o decimal, nint, o nuint
+int	      long, float, double, o decimal, nint
+uint	      long, ulong, float, double, o decimal, o nuint
+long	      float, doubleo decimal
+ulong   	float, doubleo decimal
+float  	double
+nint  	long, float, double o decimal
+nuint 	ulong, float, double o decimal

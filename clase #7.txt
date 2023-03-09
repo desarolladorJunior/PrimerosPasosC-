@@ -1,0 +1,48 @@
+clase #7 
+conversion de texto a numero
+
+using System.Runtime.InteropServices;
+
+namespace Clase_2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("ingresa un numero por favor");
+
+            int num1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("introduse otro numero");
+
+            int num2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("el resultado es " + (num1 + num2 ));
+            
+        }
+    }
+}
+ 
+
+
+using System.Runtime.InteropServices;
+
+namespace Clase_2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("ingresa un numero por favor");
+
+            int num1 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("introduse otro numero");
+
+            int num2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("el resultado es " + (num1 + num2 ));
+            
+        }
+    }
+}

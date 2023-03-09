@@ -1,0 +1,35 @@
+operadores inclemento clase #5
+
+using System.Runtime.InteropServices;
+
+namespace Clase_2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine(" EDADES CON INGREMENTO ");
+
+            int edad = 21;
+
+            edad++;
+
+            Console.WriteLine(" la edad con incremento es " + edad + " años ");
+
+            Console.WriteLine(" EDAD SIN INGREMENTO");
+
+            int Edad = 23;
+
+            Edad--;
+
+            Console.WriteLine(" la edad sin ingremento  es " + Edad + " años ");
+
+            
+
+            
+        }
+    }
+}
+
+

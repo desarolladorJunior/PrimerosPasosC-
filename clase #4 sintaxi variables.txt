@@ -1,0 +1,43 @@
+clase #4 sintaxi variables 
+
+using System.Runtime.InteropServices;
+
+namespace Clase_2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+         
+
+            int edad = 22;
+
+            Console.WriteLine(edad);
+
+        }
+    }
+}
+
+
+ejemplo 
+using System.Runtime.InteropServices;
+
+namespace Clase_2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("pedro luis");
+
+            Console.WriteLine("su edada es: ");
+
+            int edad = 22;
+
+            Console.WriteLine(edad);
+
+        }
+    }
+}
+

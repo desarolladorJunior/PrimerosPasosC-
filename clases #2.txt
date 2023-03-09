@@ -1,0 +1,15 @@
+clases #2
+
+using System.Runtime.InteropServices;
+
+namespace Clase_2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("pedro luis");
+
+        }
+    }
+}
